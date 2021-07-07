@@ -1,0 +1,41 @@
+
+::placeholder {
+    color: red;
+    background-color: aquamarine;
+  }
+  
+  html {
+    background-color: whitesmoke;
+  }
+  
+  button {
+    color: black;
+    margin: 10px;
+    padding: 1px;
+  }
+  
+  form {
+    background-color: tan;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  div,
+  TodoList {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: red;
+    text-align: center;
+  }
+  div,
+  Todo {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px black;
+  }
+  div,
+  TodoForm {
+    margin: 10px;
+  }
+  
